@@ -1,4 +1,4 @@
-z# Indian IMDB Movie Rating Prediction
+# Indian IMDB Movie Rating Prediction
 
 This project aims to predict movie ratings for Indian movies listed on IMDB. The dataset used is sourced from Kaggle and contains information such as movie name, year of release, genre, director, actors, duration, and rating.
 ## Dataset
