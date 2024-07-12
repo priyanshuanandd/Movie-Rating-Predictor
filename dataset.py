@@ -14,7 +14,7 @@ def data_overview():
     # Sample Data
     st.header("Sample Data:")
     st.write("Here's a glimpse of the movie dataset:")
-    data = pd.read_csv('dataset.csv',encoding='ISO-8859-1')  # Update with the actual file name
+    data = pd.read_csv('C:/Users/mepri/Downloads/Predict/dataset.csv' ,encoding='ISO-8859-1')  # Update with the actual file name
     st.dataframe(data.head())
 
     # Display your sample data here
