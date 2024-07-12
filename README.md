@@ -34,7 +34,7 @@ Insights:
 4. **Model Selection:** LazyRegressor is used to compare various regression models and identify the best-performing one.
 5. **Model Training and Evaluation:** The selected model (Support Vector Regressor in this case) is trained on the training data and evaluated on the test data using metrics like Mean Squared Error and R-squared.
 ## Results
-We get a R2 Score of 84 % from Support Vector Regressor
+We get a R2 Score of 84 % from XGB Regressor
 ## Conclusion
 
 In this Jupyter notebook project, we embarked on a journey to analyze and predict movie ratings. We encountered a variety of data challenges, such as missing values, typos in column names, and duplicated records. Through a series of data cleaning and preprocessing steps, we were able to prepare the dataset for analysis. Our analysis uncovered several interesting insights about the movie dataset. We observed trends in movie durations, genre popularity, the most prolific actors and directors, and the distribution of movie ratings and votes over the years. Notably, we found that short-duration movies tend to receive higher ratings and votes, and the Drama genre has consistently performed well in terms of ratings.
