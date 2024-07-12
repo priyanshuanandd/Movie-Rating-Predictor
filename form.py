@@ -11,7 +11,7 @@ from joblib import load
 
 def rating_prediction():
     # Load your trained model 
-    loaded_model = load('C:/Users/mepri/Downloads/Predict/model.joblib')
+    loaded_model = load('model.joblib')
     
 
     def movie_rating_prediction(Year, Duration, Votes, DirectorAvgRating, Actor1AvgRating, Actor2AvgRating, Actor3AvgRating):
